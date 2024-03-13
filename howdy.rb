@@ -1,5 +1,5 @@
-pp "What's your name?"
+# pp "What's your name?"
 
-their_name = gets.chomp
+f = Array(1..6).rand(6)
 
-puts "Hello, " + their_name + "!"
+pp f
